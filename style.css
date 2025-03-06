@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  box-sizing: border-box;
+}
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -23,18 +27,7 @@
 
 .app-badge {
   height: 3rem;
-  border: solid #e0932d96;
-  border-radius: 10px;
-  transition: border 0.3s ease;
   padding: 2px;
-}
-
-.app-badge:hover {
-  border: 2px solid transparent;
-  background-image: linear-gradient(to right, #f6aa1c, #941b0c);
-  -webkit-background-clip: padding-box, border-box;
-  background-clip: padding-box, border-box;
-  background-origin: border-box;
 }
 
 #btnW {
@@ -141,6 +134,24 @@ h1 {
   top: 30px;
 }
 
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #yks {
+    top: 5px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1236px) {
+  #yks {
+    top: 1px;
+  }
+}
+
+@media (max-width: 576px) {
+  #yks {
+    display: none;
+  }
+}
+
 #red {
   color: rgb(201, 97, 0);
 }
@@ -239,7 +250,7 @@ h1 {
 .bgb3 {
   position: relative;
   padding: 15rem 0;
-  background-image: url(/img/octo.gif);
+  background-image: url(/img/heh.jpg);
   background-position: center;
   background-size: cover;
 }
