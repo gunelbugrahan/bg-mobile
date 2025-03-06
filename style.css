@@ -1,0 +1,268 @@
+* ::after ::before {
+  box-sizing: border-box;
+}
+
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #fff;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 0.875rem;
+  padding: 0.75rem 1rem;
+  color: #212539;
+}
+
+#logo3 {
+  position: fixed;
+  z-index: 2;
+  top: 5px;
+  height: 100px;
+}
+
+.app-badge {
+  height: 3rem;
+  border: solid #e0932d96;
+  border-radius: 10px;
+  transition: border 0.3s ease;
+  padding: 2px;
+}
+
+.app-badge:hover {
+  border: 2px solid transparent;
+  background-image: linear-gradient(to right, #f6aa1c, #941b0c);
+  -webkit-background-clip: padding-box, border-box;
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+}
+
+#btnW {
+  color: #220a10e7;
+}
+
+h1 {
+  background: linear-gradient(to right, #f6aa1c, #941b0c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+#m1m {
+  background: linear-gradient(to left, #f18701, #780116);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.masthead {
+  background-color: #f8f9fa;
+  padding-top: 9.5rem;
+  padding-bottom: 5rem;
+}
+
+.masthead-device-mockup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 100%;
+  flex-direction: column;
+}
+
+.thy {
+  width: 670px;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.iphone {
+  max-width: 500px;
+  position: relative;
+  z-index: 2;
+  display: block;
+  margin: 0 auto;
+}
+
+.d-flex {
+  position: relative;
+  z-index: 3;
+}
+
+@media (max-width: 576px) {
+  .thy {
+    display: none;
+  }
+
+  .iphone {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+  .thy {
+    left: 55%;
+  }
+}
+
+@media (max-width: 1199.98px) and (min-width: 992px) {
+  .thy {
+    left: 60%;
+  }
+}
+
+@media (max-width: 576px) {
+  #logo3 {
+    left: 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  #logo3 {
+    left: 40%;
+  }
+  #logo3 {
+    left: 38%;
+  }
+}
+
+.bg-gradient-primary-to-secondary {
+  background: linear-gradient(40deg, #ba6c24d2, #780117ef);
+  padding: 80px 80px;
+  height: 350px;
+}
+
+#yks {
+  height: 150px;
+  position: relative;
+  top: 30px;
+}
+
+#red {
+  color: rgb(201, 97, 0);
+}
+
+#redd {
+  color: rgb(209, 59, 0);
+}
+
+#redd:hover,
+#red:hover {
+  color: red;
+  text-shadow: 0 0 10px #e45b00dc, 0 0 20px #ff6600a9, 0 0 30px #d4000088;
+}
+
+.st1 {
+  height: 150px;
+}
+
+#boy1 {
+  position: absolute;
+  width: 500px;
+  right: -45px;
+  top: -0px;
+}
+
+#boy2 {
+  position: relative;
+  width: 500px;
+  top: -30px;
+  right: 65px;
+  display: block;
+  margin: 0 auto;
+}
+
+#dice {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (max-width: 991.98px) {
+  #boy2 {
+    top: 100px;
+    left: -2%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #boy1 {
+    top: 100px;
+    left: 5px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  #boy2 {
+    top: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  #boy2 {
+    top: 50px;
+    left: -20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  #boy1 {
+    top: 80px;
+    left: -100px;
+  }
+}
+
+@media (max-width: 576px) {
+  #boy1 {
+    display: none;
+  }
+}
+
+.font-alt1::after {
+  content: "🎮";
+}
+
+.font-alt2::after {
+  content: "⚔️";
+}
+
+.font-alt3::after {
+  content: "❤️";
+}
+
+.font-alt4::after {
+  content: "👥";
+}
+
+.bgb3 {
+  position: relative;
+  padding: 15rem 0;
+  background-image: url(/img/octo.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-gradient {
+  background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+  padding: 80px 80px;
+  padding-top: 150px;
+}
+
+.texttt1 {
+  color: #b97e11;
+}
+
+.texttt1:hover {
+  color: red;
+  text-decoration: overline;
+}
+
+#message {
+  height: 10rem;
+}
+
+.pd15 {
+  height: 79px;
+}
